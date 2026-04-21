@@ -1,0 +1,5 @@
+git init
+git add.
+git commit -m "Initial commit: 健身管理平台架構"
+git remote add origin https://github.com/你的帳號/你的倉庫名.git
+git push -u origin main
