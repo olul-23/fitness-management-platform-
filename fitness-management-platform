@@ -1,0 +1,14 @@
+/fitness-platform
+│
+├── /frontend          # React 或 Vue 網頁程式碼
+│   ├── /src
+│   │   ├── components # 肌肉選擇器、紀錄表單、圖表組件
+│   │   └── App.js     # 核心路由與邏輯
+│   └── package.json
+│
+├── /backend           # Python FastAPI 或 Node.js API (處理 AI 菜單)
+│   ├── main.py        # 處理 AI 邏輯與資料存取
+│   └── database.py    # 資料庫連線設定
+│
+├── README.md          # 專案說明文件 (包含你那張規劃圖的功能描述)
+└── .gitignore         # 排除不需要上傳的檔案
